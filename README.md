@@ -16,19 +16,21 @@ Java21下载地址：https://jdk.java.net/21/
 2 并发编程
 ---
 
-* Flow
-* StructuredTaskScope
-* ScopedValue
-* org.openjdk.jmh
+* Flow 9+
+* StructuredTaskScope 21+
+* ScopedValue 21+
+* org.openjdk.jmh 12+不需要额外jar，12以下需要手动引入
 
 3 类型系统更新
 ---
 
-* 记录类
-* 密封类
-* var
-* Proxy增强
-* 匿名类
+* var 9+
+* 记录类 21+
+* 密封类 17+
+* Value-based Classes 
+* Hidden Classes 11+
+* class nests 11+
+* Method Handles 18+
 
 4 流程控制与模式匹配
 ---
@@ -45,10 +47,10 @@ Java21下载地址：https://jdk.java.net/21/
 6 集合、网络、监控
 ---
 
-* CollectionFactoryMethods
-* jfr
-* HttpClient
-* SequencedMap
+* CollectionFactoryMethods 9+
+* jfr 9+ jfr.stream 14+ jfr.network.stream 16+
+* HttpClient 11+
+* SequencedMap 21+
 
 7 模块系统变更
 ---
@@ -72,3 +74,6 @@ Java21下载地址：https://jdk.java.net/21/
 
 10 Java研发效能、脚本
 ---
+
+* java --source执行源码
+* jshell执行脚本
